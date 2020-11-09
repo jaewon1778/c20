@@ -17,9 +17,10 @@ int main()
 	int arr[SIZE]={1,2,3,4,5};
 	get_square(arr);
 	
-
+	printf("arr^2=[");
 	for (i=0; i<SIZE; i++)
-		printf("%d",arr[i]);
+		printf("%d ",arr[i]);
 	
+	printf("]\n");
 	return 0;
 }
